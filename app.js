@@ -1,15 +1,3 @@
-//module pattern 模塊模式
-//公開數據、私密數據
-//封裝 encapsulation
-//關注點分離 seperation of concerns
-
-//使用閉包及IIFE創件模塊模式，能確保某些數據只能在模塊內被使用，避免數據被覆蓋。確保程式碼的安全性。除了私有變數與數據也有公開的變數及數據，提供其他功能或模組可以使用
-//。數據封裝使我們可以隱藏特定模塊的實施細節。因此從外部範圍來看，只暴露一個公共接口，也可以稱為API
-//IIFE 提供了數據隱私，因為它創造新的範圍，從外部範圍看不到
-//模塊回傳一個包含所有功能且我們想要公開的物件，所以我們建立一個函數，可以從外部範圍訪問
-
-//變數立即被呼叫回傳一個物件的函數表達式
-
 //BUDGET CONTROLLER
 var budgetController = (function () {
     var Expense = function (id, description, value) {
