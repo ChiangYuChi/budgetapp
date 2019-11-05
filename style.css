@@ -42,9 +42,10 @@ body {
 .top {
   height: 40vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
-    url(back.png);
+    url(back.jpg);
   background-size: cover;
-  background-position: center;
+  background-position-y: 35%;
+  background-repeat: no-repeat;
   position: relative;
 }
 
@@ -282,7 +283,6 @@ h2 {
   vertical-align: middle;
   line-height: 1;
   display: none;
-  border: 1px solid red;
   width: 23px;
   height: 23px;
 }
