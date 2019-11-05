@@ -283,6 +283,13 @@ h2 {
   line-height: 1;
   display: none;
   border: 1px solid red;
+  width: 40px;
+  height: 40px;
+}
+
+.ion-ios-close-outline {
+  font-size: 30px;
+  color: #28b9b5;
 }
 
 .item__delete--btn:focus {
